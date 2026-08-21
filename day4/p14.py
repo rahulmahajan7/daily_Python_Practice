@@ -1,8 +1,9 @@
 i=1
-while i<=5:
+while i<=13:
     j=1
-    while j<=5:
-        if j>=6-i:
+    while j<=7:
+
+        if j>=i or j>=14-i and i>=7:
             print("*",end="")
         else:
             print(" ",end="")

@@ -1,13 +1,14 @@
 for i in range(1,6):
-    n=1
-    flag=True   
-    for j in range(1,10):
-        if ((j==6-i or j==4+i) and i<=4 )or(i==5 and flag ):
-            print(n,end=" ")
-            n=i
-            n=n+1
+    n=5
+    for j in range(1,6):
+        if i==1:
+            print(j,end=" ")
+        elif i>1 and (j==1 or j==6-i):
+            if j==1:
+                print(i,end=" ")
+            else:
+                print(n,end=" ");
 
         else:
             print(" ",end=" ")
-            flag=True
     print()

@@ -1,6 +1,6 @@
 num1=int(input("Enter num 1"))
 num2=int(input("Enter num 2"))
-temp=1
+temp=1  
 hcf=1
 while num2 != 0:
         temp = num2

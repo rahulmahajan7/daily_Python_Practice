@@ -3,7 +3,7 @@ while i<=13:
     j=1
     while j<=7:
 
-        if j>=i or j>=14-i and i>=7:
+        if j==i or j>=14-i:
             print("*",end="")
         else:
             print(" ",end="")

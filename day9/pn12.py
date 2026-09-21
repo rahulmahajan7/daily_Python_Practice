@@ -24,16 +24,12 @@
 
         print()'''
 for i in range(1, 9):
-
     if i <= 4:
         count = i
     else:
-        count = 9 - i
-
+        count=9-i
     for j in range(count):
         print(count, end=" ")
-
         if j < count - 1:
             print("*", end=" ")
-
     print()

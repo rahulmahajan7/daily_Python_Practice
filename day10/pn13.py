@@ -12,6 +12,6 @@ for i in range(1,9):
                 print(" ",end=" ")
                 flag=True
         else:
-            print("*",end=" ")
+            print("*    ",end=" ")
     print()
     n=n+1

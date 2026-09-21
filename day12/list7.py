@@ -1,7 +1,7 @@
 list=[]
 n=5
 for i in range(n):
-    element = int(input("Enter element {i+1}: "))
+    element = int(input("Enter element : "))
     list.append(element)
 index=int(input("Enter index to insert element"))
 value=int(input("Enter value to insert element"))

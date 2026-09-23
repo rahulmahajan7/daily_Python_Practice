@@ -5,7 +5,6 @@ def getPalindrome(numbers):
         if numbers[i]%2==0:
             sum=sum+numbers[i]
         i=i+1
-    print(sum)
     return sum;
             
     
